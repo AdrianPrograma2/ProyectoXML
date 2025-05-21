@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz XML</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1 id="titulo">Quiz XML</h1>
+
+  <div id="seleccion-idioma">
+    <label for="idioma" id="etiqueta-idioma">Idioma:</label>
+    <select id="idioma">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+    <button onclick="iniciarQuiz()" id="btn-iniciar">Iniciar</button>
+  </div>
+
+  <div id="reloj" style="display:none;">00:00</div>
+  <div id="pregunta"></div>
+  <button id="btn-siguiente" onclick="siguientePregunta()" style="display:none;">Siguiente</button>
+  <p id="puntuacion"></p>
+  <button id="reiniciar" onclick="reiniciarQuiz()" style="display:none;">Reiniciar Quiz</button>
+
+  <script src="reloj.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

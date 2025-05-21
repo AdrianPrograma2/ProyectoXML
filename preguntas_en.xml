@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>Which team won the 2010 World Cup?</wording>
+    <choices>
+      <choice correct="no">Germany</choice>
+      <choice correct="yes">Spain</choice>
+      <choice correct="no">Argentina</choice>
+      <choice correct="no">Brazil</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>Which club won the Champions League in 2023?</wording>
+    <choices>
+      <choice correct="no">Real Madrid</choice>
+      <choice correct="yes">Manchester City</choice>
+      <choice correct="no">Bayern Munich</choice>
+      <choice correct="no">Inter Milan</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>Who was the top scorer at the 2022 Qatar World Cup?</wording>
+    <choices>
+      <choice correct="no">Lionel Messi</choice>
+      <choice correct="yes">Kylian Mbappé</choice>
+      <choice correct="no">Olivier Giroud</choice>
+      <choice correct="no">Richarlison</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Which team won Euro 2020 (played in 2021)?</wording>
+    <choices>
+      <choice correct="no">England</choice>
+      <choice correct="no">France</choice>
+      <choice correct="yes">Italy</choice>
+      <choice correct="no">Portugal</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>What was the first club Xavi Hernández coached?</wording>
+    <choices>
+      <choice correct="yes">Al-Sadd</choice>
+      <choice correct="no">FC Barcelona</choice>
+      <choice correct="no">Villarreal</choice>
+      <choice correct="no">Sevilla</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>Which club won La Liga in the 2022/2023 season?</wording>
+    <choices>
+      <choice correct="no">Real Madrid</choice>
+      <choice correct="no">Atlético Madrid</choice>
+      <choice correct="yes">FC Barcelona</choice>
+      <choice correct="no">Real Sociedad</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Which team does Jude Bellingham currently play for (2024/2025)?</wording>
+    <choices>
+      <choice correct="no">Borussia Dortmund</choice>
+      <choice correct="no">Liverpool</choice>
+      <choice correct="yes">Real Madrid</choice>
+      <choice correct="no">Manchester City</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>Who won the Ballon d'Or in 2023?</wording>
+    <choices>
+      <choice correct="no">Kylian Mbappé</choice>
+      <choice correct="no">Erling Haaland</choice>
+      <choice correct="yes">Lionel Messi</choice>
+      <choice correct="no">Kevin De Bruyne</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>Which country hosted the 2022 World Cup?</wording>
+    <choices>
+      <choice correct="no">Russia</choice>
+      <choice correct="yes">Qatar</choice>
+      <choice correct="no">United States</choice>
+      <choice correct="no">Japan</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Which team was the finalist against Real Madrid in the 2022 Champions League?</wording>
+    <choices>
+      <choice correct="no">Chelsea</choice>
+      <choice correct="no">Manchester City</choice>
+      <choice correct="yes">Liverpool</choice>
+      <choice correct="no">PSG</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>Which player did Al-Nassr sign in 2023?</wording>
+    <choices>
+      <choice correct="no">Neymar</choice>
+      <choice correct="no">Lionel Messi</choice>
+      <choice correct="yes">Cristiano Ronaldo</choice>
+      <choice correct="no">Benzema</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>Which manager led Chelsea to win the Champions League in 2021?</wording>
+    <choices>
+      <choice correct="no">Frank Lampard</choice>
+      <choice correct="yes">Thomas Tuchel</choice>
+      <choice correct="no">José Mourinho</choice>
+      <choice correct="no">Maurizio Sarri</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>Which team won the men's Olympic football gold medal at Tokyo 2020?</wording>
+    <choices>
+      <choice correct="no">Germany</choice>
+      <choice correct="yes">Brazil</choice>
+      <choice correct="no">Spain</choice>
+      <choice correct="no">Japan</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>Who was Argentina's coach when they won the 2022 World Cup?</wording>
+    <choices>
+      <choice correct="no">Jorge Sampaoli</choice>
+      <choice correct="yes">Lionel Scaloni</choice>
+      <choice correct="no">Menotti</choice>
+      <choice correct="no">Diego Simeone</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>Which club did Erling Haaland make his professional debut with?</wording>
+    <choices>
+      <choice correct="yes">Molde FK</choice>
+      <choice correct="no">RB Salzburg</choice>
+      <choice correct="no">Borussia Dortmund</choice>
+      <choice correct="no">Manchester City</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>Which English club won the Premier League in the 2022/2023 season?</wording>
+    <choices>
+      <choice correct="no">Arsenal</choice>
+      <choice correct="yes">Manchester City</choice>
+      <choice correct="no">Liverpool</choice>
+      <choice correct="no">Manchester United</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>Which Argentine footballer won the U-20 World Cup in 2005 and then the senior World Cup in 2022?</wording>
+    <choices>
+      <choice correct="no">Di María</choice>
+      <choice correct="yes">Lionel Messi</choice>
+      <choice correct="no">Agüero</choice>
+      <choice correct="no">Otamendi</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>Which Spanish team reached the Champions League semifinals in 2023?</wording>
+    <choices>
+      <choice correct="no">Atlético Madrid</choice>
+      <choice correct="no">Sevilla</choice>
+      <choice correct="no">Barcelona</choice>
+      <choice correct="yes">Real Madrid</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>Which country won the Copa América 2021?</wording>
+    <choices>
+      <choice correct="no">Uruguay</choice>
+      <choice correct="no">Brazil</choice>
+      <choice correct="yes">Argentina</choice>
+      <choice correct="no">Chile</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>Which team won the Women's World Cup in 2023?</wording>
+    <choices>
+      <choice correct="no">United States</choice>
+      <choice correct="no">England</choice>
+      <choice correct="yes">Spain</choice>
+      <choice correct="no">Germany</choice>
+    </choices>
+  </question>
+</test>
